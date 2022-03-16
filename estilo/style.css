@@ -86,12 +86,12 @@ main {
   border-bottom-left-radius: 10px;
 }
 
-main h1 {
+main h2 {
   font: normal 1.8em var(--fonte-android);
   color: var(--cor5);
 }
 
-main h2 {
+main h3 {
   font: 1.3em var(--fonte-android);
   color: var(--cor4);
   background-image: linear-gradient(to right, var(--cor1), transparent);
@@ -169,8 +169,9 @@ aside > ul {
   columns: 2;
 }
 
-aside > h3 {
+aside > h2 {
   background-color: var(--cor4);
+  font: bold 1.18em var(--fonte-padrao);
   color: white;
   padding: 10px;
   border-radius: 10px 10px 0 0;
